@@ -18,17 +18,22 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '20'
+        node-version: '18'
 
-    - name: Install dependencies and build
+    - name: Install dependencies
       run: |
-        cd Frontend
+        cd Frontend/GPPSA\ Ui
         npm install
-        npm run build -- --configuration=production
+
+    - name: Build
+      run: |
+        cd Frontend/GPPSA\ Ui
+        npm run build
+      
 
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v3
       with:
         app-name: 'gppsa-ui'
         publish-profile: ${{ secrets.AZURE_FRONTEND_PUBLISH_PROFILE }}
-        package: 'Frontend/dist/gppsa-ui' # Paths vary by Angular version. Check your dist folder output name.
+        package: Frontend/GPPSA\ Ui/dist/gppsa-ui/browser # Paths vary by Angular version. Check your dist folder output name.
