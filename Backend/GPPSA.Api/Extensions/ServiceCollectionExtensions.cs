@@ -28,7 +28,10 @@ namespace GPPSA.Api.Extensions
             // DbContext
             services.AddDbContext<AppDBContext>(options =>
                 options.UseSqlServer(
-                    configuration.GetConnectionString("DefaultConnection")));
+                    configuration.GetConnectionString("DefaultConnection"),
+                    b=> b.MigrationsAssembly("GPPSA.Infrastructure")
+                    )
+                );
 
             // Repositories
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
