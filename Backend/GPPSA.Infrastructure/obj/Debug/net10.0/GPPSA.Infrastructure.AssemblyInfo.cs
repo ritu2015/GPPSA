@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GPPSA.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e108eec5aa4a996a7ca43c2743cdedb2592224a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0802008420ef81cf25d89b4ce683106f194ed3c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("GPPSA.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GPPSA.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

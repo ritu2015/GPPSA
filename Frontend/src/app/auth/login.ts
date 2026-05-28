@@ -3,6 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { environment } from '../../environments/environment.prod';
 
 @Component({
   standalone: true,
@@ -149,7 +150,7 @@ export class LoginComponent {
     this.loading = true;
     this.error = '';
 
-    this.http.post<any>('http://localhost:5047/api/auth/login', {
+    this.http.post<any>(`${environment.apiBaseUrl}/api/auth/login`, {
       email: this.email,
       password: this.password
     }).subscribe({

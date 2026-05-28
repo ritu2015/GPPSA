@@ -3,11 +3,12 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Employee } from '../Models/employee.model';
 import { UpdateEmployeeDto } from '../Models/UpdateEmployeeDto';
+import { environment } from '../../environments/environment';
 
 @Injectable({ providedIn: 'root' })
 export class EmployeeService {
 
-  private api = 'http://localhost:5047/api/employees';
+  private api = `${environment.apiBaseUrl}/api/employees`;
 
   employees = signal<Employee[]>([]);
 
