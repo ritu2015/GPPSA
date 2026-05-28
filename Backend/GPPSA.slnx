@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="GPPSA.Api/GPPSA.Api.csproj" />
+  <Project Path="GPPSA.Application/GPPSA.Application.csproj" />
+  <Project Path="GPPSA.Domain/GPPSA.Domain.csproj" />
+  <Project Path="GPPSA.Infrastructure/GPPSA.Infrastructure.csproj" />
+</Solution>

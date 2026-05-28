@@ -1,0 +1,9 @@
+# Frontend
+Frontend/node_modules/
+Frontend/dist/
+
+# Backend (adjust based on your language, e.g., .NET or Node)
+Backend/bin/
+Backend/obj/
+Backend/node_modules/
+.env

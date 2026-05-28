@@ -1,0 +1,11 @@
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Domain\bin\Debug\net10.0\GPPSA.Domain.deps.json
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Domain\bin\Debug\net10.0\GPPSA.Domain.dll
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Domain\bin\Debug\net10.0\GPPSA.Domain.pdb
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Domain\obj\Debug\net10.0\GPPSA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Domain\obj\Debug\net10.0\GPPSA.Domain.AssemblyInfoInputs.cache
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Domain\obj\Debug\net10.0\GPPSA.Domain.AssemblyInfo.cs
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Domain\obj\Debug\net10.0\GPPSA.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Domain\obj\Debug\net10.0\GPPSA.Domain.dll
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Domain\obj\Debug\net10.0\refint\GPPSA.Domain.dll
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Domain\obj\Debug\net10.0\GPPSA.Domain.pdb
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Domain\obj\Debug\net10.0\ref\GPPSA.Domain.dll

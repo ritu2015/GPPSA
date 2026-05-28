@@ -1,0 +1,6 @@
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\publish\GPPSA.Application.dll
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\publish\GPPSA.Application.deps.json
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\publish\GPPSA.Application.pdb
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\publish\AutoMapper.dll
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\publish\GPPSA.Domain.dll
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\publish\GPPSA.Domain.pdb

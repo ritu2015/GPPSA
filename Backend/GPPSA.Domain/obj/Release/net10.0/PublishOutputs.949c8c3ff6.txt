@@ -1,0 +1,3 @@
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\publish\GPPSA.Domain.dll
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\publish\GPPSA.Domain.deps.json
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\publish\GPPSA.Domain.pdb

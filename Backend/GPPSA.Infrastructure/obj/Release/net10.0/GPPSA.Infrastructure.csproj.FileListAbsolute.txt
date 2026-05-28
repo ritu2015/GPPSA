@@ -1,0 +1,17 @@
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\bin\Release\net10.0\GPPSA.Infrastructure.deps.json
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\bin\Release\net10.0\GPPSA.Infrastructure.dll
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\bin\Release\net10.0\GPPSA.Infrastructure.pdb
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\bin\Release\net10.0\GPPSA.Application.dll
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\bin\Release\net10.0\GPPSA.Domain.dll
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\bin\Release\net10.0\GPPSA.Domain.pdb
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\bin\Release\net10.0\GPPSA.Application.pdb
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\obj\Release\net10.0\GPPSA.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\obj\Release\net10.0\GPPSA.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\obj\Release\net10.0\GPPSA.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\obj\Release\net10.0\GPPSA.Infrastructure.AssemblyInfo.cs
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\obj\Release\net10.0\GPPSA.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\obj\Release\net10.0\GPPSA.In.91A8CE69.Up2Date
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\obj\Release\net10.0\GPPSA.Infrastructure.dll
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\obj\Release\net10.0\refint\GPPSA.Infrastructure.dll
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\obj\Release\net10.0\GPPSA.Infrastructure.pdb
+C:\Users\ritbishl\Desktop\Learnings 2025\GPSSA\GPPSA.Infrastructure\obj\Release\net10.0\ref\GPPSA.Infrastructure.dll
