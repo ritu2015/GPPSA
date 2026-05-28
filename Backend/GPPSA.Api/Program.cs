@@ -14,8 +14,16 @@ builder.Services.AddApplicationServices(builder.Configuration);
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
-    var db = scope.ServiceProvider.GetRequiredService<AppDBContext>();
-    db.Database.Migrate(); // 🔥 creates / updates DB
+    try
+    {
+        var db = scope.ServiceProvider.GetRequiredService<AppDBContext>();
+        db.Database.Migrate(); 
+    }
+    catch (Exception ex)
+    {
+        // Suppresses the network timeout crash so your API can still boot up!
+        Console.WriteLine($"Migration failed but app will continue running: {ex.Message}");
+    }
 }
 
 if (app.Environment.IsDevelopment())
