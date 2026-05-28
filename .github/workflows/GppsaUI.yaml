@@ -31,4 +31,4 @@ jobs:
       with:
         app-name: 'gppsa-ui'
         publish-profile: ${{ secrets.AZURE_FRONTEND_PUBLISH_PROFILE }}
-        package: 'Frontend/dist/gppsa-ui-cubsbvcyhbgmchf4' # Paths vary by Angular version. Check your dist folder output name.
+        package: 'Frontend/dist/gppsa-ui' # Paths vary by Angular version. Check your dist folder output name.
