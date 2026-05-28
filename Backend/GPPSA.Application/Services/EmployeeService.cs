@@ -52,8 +52,42 @@ namespace GPPSA.Application.Services
 
     public async Task<List<EmployeeResponseDto>> GetAllAsync()
     {
-        var employees = await _repo.GetAllEmployeesAsync();
-        return employees.Select(_mapper.Map<EmployeeResponseDto>).ToList(); 
+        //var employees = await _repo.GetAllEmployeesAsync();
+        // Simulate an async database delay (Optional)
+            await Task.Delay(50);
+
+            // Return a mock list of employees for your interview dashboard
+            return new List<EmployeeResponseDto>
+            {
+                new EmployeeResponseDto 
+                { 
+                    Id = Guid.NewGuid(), 
+                    EmployeeCode = "EMP001",
+                    FullName = "John Doe", 
+                    Email = "john.doe@gppsa.com", 
+                    DepartmentName = "Engineering", 
+                    Salary = 75000
+                },
+                new EmployeeResponseDto 
+                { 
+                    Id = Guid.NewGuid(), 
+                    EmployeeCode = "EMP002",
+                    FullName = "Jane Smith", 
+                    Email = "jane.smith@gppsa.com", 
+                    DepartmentName = "HR", 
+                    Salary = 65000
+                },
+                new EmployeeResponseDto 
+                { 
+                    Id = Guid.NewGuid(), 
+                    EmployeeCode = "EMP003",
+                    FullName = "Alex Jones", 
+                    Email = "alex.jones@gppsa.com", 
+                    DepartmentName = "Finance", 
+                    Salary = 70000
+                }
+            };
+        //return employees.Select(_mapper.Map<EmployeeResponseDto>).ToList(); 
     }
     
      public async Task UpdateEmployeeAsync(Guid id, UpdateEmployeeDto employeeDto)
