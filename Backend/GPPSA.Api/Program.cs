@@ -26,8 +26,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseGlobalExceptionHandler();
-app.UseAuthentication();
 app.UseCors("AllowAngularApp");
+app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 

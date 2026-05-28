@@ -104,7 +104,9 @@ services.AddCors(options =>
     options.AddPolicy("AllowAngularApp", policy =>
         policy.WithOrigins("http://localhost:4200","https://gppsa-ui-cubsbvcyhbgmchf4.canadacentral-01.azurewebsites.net")
               .AllowAnyMethod()
-              .AllowAnyHeader());
+              .AllowAnyHeader()
+              .SetIsOriginAllowedToAllowWildcardSubdomains()
+              );
 });
 
             return services;
