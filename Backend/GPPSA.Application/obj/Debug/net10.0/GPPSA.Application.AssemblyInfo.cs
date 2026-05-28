@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GPPSA.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e108eec5aa4a996a7ca43c2743cdedb2592224a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("GPPSA.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GPPSA.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

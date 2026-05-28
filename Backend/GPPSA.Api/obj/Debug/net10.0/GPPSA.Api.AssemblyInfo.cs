@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GPPSA.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e108eec5aa4a996a7ca43c2743cdedb2592224a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("GPPSA.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GPPSA.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

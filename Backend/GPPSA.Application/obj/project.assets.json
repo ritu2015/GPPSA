@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\GPSSA\\GPPSA.Application\\GPPSA.Application.csproj",
+      "projectUniqueName": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\gppsa-app\\Backend\\GPPSA.Application\\GPPSA.Application.csproj",
       "projectName": "GPPSA.Application",
-      "projectPath": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\GPSSA\\GPPSA.Application\\GPPSA.Application.csproj",
+      "projectPath": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\gppsa-app\\Backend\\GPPSA.Application\\GPPSA.Application.csproj",
       "packagesPath": "C:\\Users\\ritbishl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\GPSSA\\GPPSA.Application\\obj\\",
+      "outputPath": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\gppsa-app\\Backend\\GPPSA.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ritbishl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\GPSSA\\GPPSA.Domain\\GPPSA.Domain.csproj": {
-              "projectPath": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\GPSSA\\GPPSA.Domain\\GPPSA.Domain.csproj"
+            "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\gppsa-app\\Backend\\GPPSA.Domain\\GPPSA.Domain.csproj": {
+              "projectPath": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\gppsa-app\\Backend\\GPPSA.Domain\\GPPSA.Domain.csproj"
             }
           }
         }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\GPSSA\\GPPSA.Domain\\GPPSA.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\gppsa-app\\Backend\\GPPSA.Domain\\GPPSA.Domain.csproj",
       "projectName": "GPPSA.Domain",
-      "projectPath": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\GPSSA\\GPPSA.Domain\\GPPSA.Domain.csproj",
+      "projectPath": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\gppsa-app\\Backend\\GPPSA.Domain\\GPPSA.Domain.csproj",
       "packagesPath": "C:\\Users\\ritbishl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\GPSSA\\GPPSA.Domain\\obj\\",
+      "outputPath": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\gppsa-app\\Backend\\GPPSA.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ritbishl\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IGBj49HoIVQ=",
+  "dgSpecHash": "fyIqs4uj7BM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\GPSSA\\GPPSA.Infrastructure\\GPPSA.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\gppsa-app\\Backend\\GPPSA.Infrastructure\\GPPSA.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ritbishl\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ritbishl\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
@@ -47,9 +47,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'AutoMapper' 12.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
-      "projectPath": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\GPSSA\\GPPSA.Infrastructure\\GPPSA.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\gppsa-app\\Backend\\GPPSA.Infrastructure\\GPPSA.Infrastructure.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\GPSSA\\GPPSA.Infrastructure\\GPPSA.Infrastructure.csproj",
+      "filePath": "C:\\Users\\ritbishl\\Desktop\\Learnings 2025\\gppsa-app\\Backend\\GPPSA.Infrastructure\\GPPSA.Infrastructure.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net10.0"

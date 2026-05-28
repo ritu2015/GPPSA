@@ -1,0 +1,33 @@
+name: Deploy GPPSA UI to Azure
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Frontend/**' # Only triggers when files change in the Frontend folder
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install dependencies and build
+      run: |
+        cd Frontend
+        npm install
+        npm run build -- --configuration=production
+
+    - name: Deploy to Azure Web App
+      uses: azure/webapps-deploy@v3
+      with:
+        app-name: 'YOUR_FRONTEND_WEBAPP_NAME'
+        publish-profile: ${{ secrets.AZURE_FRONTEND_PUBLISH_PROFILE }}
+        package: 'Frontend/dist/gppsa-ui-cubsbvcyhbgmchf4' # Paths vary by Angular version. Check your dist folder output name.
