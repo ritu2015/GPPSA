@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'Frontend/**' # Only triggers when files change in the Frontend folder
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
