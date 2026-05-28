@@ -5,15 +5,20 @@ on:
     branches:
       - main
     paths:
-      - 'Frontend/**' # Only triggers when files change in the Frontend folder
+      - 'Frontend/**'
   workflow_dispatch:
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: Frontend   # ✅ Angular root
+
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
     - name: Set up Node.js
       uses: actions/setup-node@v4
@@ -21,19 +26,14 @@ jobs:
         node-version: '18'
 
     - name: Install dependencies
-      run: |
-        cd Frontend/GPPSA\ Ui
-        npm install
+      run: npm install
 
-    - name: Build
-      run: |
-        cd Frontend/GPPSA\ Ui
-        npm run build
-      
+    - name: Build Angular app
+      run: npm run build
 
-    - name: Deploy to Azure Web App
+    - name: Deploy to Azure App Service
       uses: azure/webapps-deploy@v3
       with:
-        app-name: 'gppsa-ui'
+        app-name: gppsa-ui
         publish-profile: ${{ secrets.AZURE_FRONTEND_PUBLISH_PROFILE }}
-        package: Frontend/GPPSA\ Ui/dist/gppsa-ui/browser # Paths vary by Angular version. Check your dist folder output name.
+        package: Frontend/dist/gppsa-ui/browser
